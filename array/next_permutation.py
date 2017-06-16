@@ -24,6 +24,7 @@ class Solution(object):
 		:type nums: List[int]
 		:rtype: void Do not return anything, modify nums in-place instead.
 		时间复杂度O(n)
+		
 		"""
 		# 找最长倒序子串下标
 		right = len(nums) - 1
