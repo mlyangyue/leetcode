@@ -23,10 +23,11 @@ class Solution(object):
 		for num in nums:
 			if res == "":
 				res = num
-			cur = max(num+cur, num)
-			res = max(res,cur)
+			cur = max(num + cur, num)
+			res = max(res, cur)
 
 		return res
 
+
 if __name__ == "__main__":
-	print Solution().maxSubArray([-1,0,-2])
+	print Solution().maxSubArray([1, -2, 3, 10, -4, 7, 2, -5])
